@@ -1,0 +1,104 @@
+*правило для элементов main*/
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*правило для элементов относящихся к классу a_footer*/
+.a_footer {
+    display: block;
+}
+h1 {
+    text-align: center;
+}
+h2{
+    margin-left: 25px;
+}
+h3 {
+    text-align: center;
+}
+p{
+    margin-left: 10px;
+}
+/*подключаем картинку для шапки*/
+header {
+    background: url('https://d626yq9e83zk1.cloudfront.net/files/2017/12/26-770x425.jpg');
+    color: white;
+    text-align: center;
+}
+adress {
+    text-align: center;
+}
+.sved{
+    background: url('https://i1.wp.com/papers.co/wallpaper/papers.co-vd57-simple-lines-white-curves-abstract-art-36-3840x2400-4k-wallpaper.jpg');
+    color: rgb(27, 9, 9);
+    padding: 20px 20px;
+}
+.flex__ul {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.flex__item{
+    
+    flex-basis: 350px;
+    flex-grow: 0;
+    margin-left: 10%;
+}
+body{
+    background: url('https://i1.wp.com/papers.co/wallpaper/papers.co-vd57-simple-lines-white-curves-abstract-art-36-3840x2400-4k-wallpaper.jpg');
+    font-family: 'Times New Roman', Times, serif;
+}
+.glavOdz {
+    padding: 20px 0;
+    color: #080476fc;
+    text-align: center;
+  }
+  .odz-size{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  .odz-log{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .odz-indent{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .odz-square {
+    background: #d4d1d1;
+    padding: 28px;
+    border: 2px solid rgb(2, 4, 49);
+  }
+  .odz-square img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(6, 17, 81);
+  }
+  .odz-name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }  
+  @media screen and (max-width:960px) {
+  .odz-indent{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .odz-indent{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+  
